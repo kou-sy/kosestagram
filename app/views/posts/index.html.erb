@@ -11,7 +11,7 @@
             <strong><%= post.user.name %></strong>
           <% end %>
         </div>
-
+        # photos method?
         <%= image_tag post.photos.first.image.url(:medium), class: "card-img-top" %>
 
         <div class="card-body">
@@ -23,7 +23,7 @@
           <div>
             <span><strong><%= post.user.name %></strong></span>
             <span><%= post.caption %></span>
-            <%= link_to time_ago_in_words(post.created_at).upcase + "Previous", "#", class: "post-time no-text-decoration" %>
+            <%= link_to time_ago_in_words(post.created_at).upcase + " Ago", "#", class: "post-time no-text-decoration" %>
             <hr>
             <div class="row parts">
               <form action="#" class="w-100">
