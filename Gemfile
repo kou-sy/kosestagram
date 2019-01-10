@@ -69,3 +69,5 @@ gem 'devise'
 gem 'carrierwave', '~> 1.0'
 # add rmagick
 gem 'rmagick'
+# add font-awesome
+gem 'font-awesome-rails'
