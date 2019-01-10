@@ -6,4 +6,8 @@ Rails.application.routes.draw do
     controllers: { registrations: 'registrations' }
 
   resources :users, only: %i(show)
+
+  resources :posts, only: %i(index new create) do
+    resources :photos, only: %i(create)
+  end
 end
