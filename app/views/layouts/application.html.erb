@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <%= render 'partial/navbar' %>
+    <%= render 'partial/navbar' if current_user %>
 
     <% if flash[:notice] %>
       <div class="alert alert-info">
