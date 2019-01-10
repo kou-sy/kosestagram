@@ -16,12 +16,17 @@ class PostsController < ApplicationController
         @post.save
         @post.photos.create(image: img)
         redirect_to root_path
-        flash[:notice] = "投稿が保存されました"
+        flash[:notice] = "Saved"
       end
     else
       redirect_to root_path
-      flash[:alert] = "投稿に失敗しました"
+      flash[:alert] = "Fail"
     end
+  end
+
+  def show
+    @post = Post.find_by(id: params[:id])
+    @photos = @post.photos
   end
 
   private
