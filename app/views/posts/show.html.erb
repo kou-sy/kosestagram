@@ -24,6 +24,9 @@
           </div>
           <div class="comment-post-id">
             <div class="m-2">
+              <div id="comment-post-<%= @post.id.to_s %>">
+                <%= render 'comment_list', post: @post %>
+              </div>
             </div>
           </div>
         </div>
