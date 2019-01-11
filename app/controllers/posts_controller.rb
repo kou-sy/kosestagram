@@ -28,6 +28,7 @@ class PostsController < ApplicationController
   def show
     #@post = Post.find_by(id: params[:id])
     @photos = @post.photos
+    @likes = @post.likes.includes(:user)
   end
   #@post = Post.find_by(id: params[:id])
   def destroy
