@@ -20,7 +20,9 @@
         </div>
         
         <%= link_to(post_path(post)) do %>
-          
+          <% post.photos.each do |photo| %>
+            <%= image_tag post.photos.first.image.url(:medium) %>
+          <% end %>
         <% end %>
 
         <div class="card-body">
