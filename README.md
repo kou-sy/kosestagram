@@ -1,12 +1,9 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+## kosestagram
+Instagram clone.
 
 * Ruby version
-
+ruby 2.5.1
 * System dependencies
 
 * Configuration
@@ -21,4 +18,3 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
