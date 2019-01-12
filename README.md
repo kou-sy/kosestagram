@@ -2,25 +2,13 @@
 ## kosestagram
 Instagram clone.
 
-* Ruby version
-ruby 2.5.1
-* System dependencies
+### Ruby version
+* ruby 2.5.1
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the
+* How to run on local
 ```
 bin/rails db:migrate RAILS_ENV=development
 ```
 ```
 rails s
 ```
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
