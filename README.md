@@ -12,7 +12,13 @@ ruby 2.5.1
 
 * Database initialization
 
-* How to run the test suite
+* How to run the
+```
+bin/rails db:migrate RAILS_ENV=development
+```
+```
+rails s
+```
 
 * Services (job queues, cache servers, search engines, etc.)
 
