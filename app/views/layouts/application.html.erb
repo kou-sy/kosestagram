@@ -4,6 +4,7 @@
     <title>Kosestagram</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= analytics_init if Rails.env.production? %> 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

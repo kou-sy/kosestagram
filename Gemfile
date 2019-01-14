@@ -38,7 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 
-# add
+# add Google analytics
+gem 'google-analytics-rails'
 
 group :production do
 gem 'pg'
