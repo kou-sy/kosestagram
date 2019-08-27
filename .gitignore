@@ -31,3 +31,5 @@
 /config/master.key
 # uploaded image
 public/uploads/
+# IDE Settings
+.DS_Store
