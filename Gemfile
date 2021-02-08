@@ -73,7 +73,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # add devise
 gem 'devise'
 # add carrierwave
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 # add rmagick
 gem 'rmagick'
 # add font-awesome
